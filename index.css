@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.moveable-area {
+  position: relative;
+  width: 1000px;
+  height: 800px;
+  margin: 100px auto;
+  background-color: #f0f0f0;
+}
+
+.block {
+  position: absolute;;
+  width: 80px;
+  height: 80px;
+}
+
+#static-block {
+  right: 300px;
+  bottom: 300px;
+  background-color: #f0f146;
+}
+
+#moveable-block {
+  background-color: #3c811b;
+}
