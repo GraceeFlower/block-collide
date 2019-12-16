@@ -12,8 +12,8 @@ var oArea = document.getElementsByClassName("moveable-area")[0];
   var offsetY;
 
   oMove.onmousedown = down;
-  oMove.onmousemove = move;
-  oMove.onmouseup = up;
+  document.onmousemove = move;
+  document.onmouseup = up;
 
   function down(e) {
     dragging = true;
