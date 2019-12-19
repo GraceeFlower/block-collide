@@ -1,8 +1,7 @@
-var oStatic = document.getElementById("static-block");
-var oMove = document.getElementById("moveable-block");
-var oArea = document.getElementsByClassName("moveable-area")[0];
-
 window.onload = function () {
+  var oStatic = document.getElementById("static-block");
+  var oMove = document.getElementById("moveable-block");
+  var oArea = document.getElementsByClassName("moveable-area")[0];
   var dragging = false;
   var blockX;
   var blockY;
