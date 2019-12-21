@@ -8,3 +8,5 @@ Attention the **rules**:
 drag the green one to collide it!
 
 Have fun~
+
+Here comes the [GitHub Pages](https://graceeflower.github.io/block-collide/)~
